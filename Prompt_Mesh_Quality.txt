@@ -1,0 +1,32 @@
+Hi, Assume you are best script generator. I want to build a Python script to check a 2D FE Model in Abaqus irrespective of the 
+element typeand type pf analysis for first order elements.
+
+The Quality parameters it should study and analyze are
+
+1. Aspect ratio <5
+2. Skew<=45
+3. Jacobian >=0.7
+4. Angles ( 45 to 135) for Quad elements and ( 30 to 120 ) for Tria elements.
+5. Percent of Tria ratio
+
+It should read a inp file and check the above parameters
+
+Please give me a txt output to display and also a excel format
+
+1.Total elements :
+2. No of Quads
+3. No of Tria`s
+
+Deviation:
+
+              Quads     Tria      Total
+
+ Aspect ratio 
+ Skew
+Jacobian 
+ Angles 
+
+Percent of Tria ratio
+
+Please ask questions
+

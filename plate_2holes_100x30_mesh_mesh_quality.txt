@@ -1,0 +1,69 @@
+============================================================
+2D FIRST-ORDER MESH QUALITY REPORT
+============================================================
+Input file : E:\CAE_AI\Manual_Mesh_Quality_Review\plate_2holes_100x30_mesh.inp
+
+Thresholds:
+  Aspect ratio          : < 5.0
+  Skew                  : <= 45.0 deg
+  Quad corner angles    : 45.0 - 135.0 deg
+  Tria corner angles    : 30.0 - 120.0 deg
+  Small element length  : < 0.9 mm
+
+1. Total elements : 332
+2. No of Quads    : 324
+3. No of Trias    : 8
+
+Deviation (elements failing threshold):
+
+                           Quads     Trias     Total
+Aspect ratio                   0         0         0
+Skew                           0         1         1
+Angles                        17         2        19
+Small element length           8         2        10
+
+Percent of Tria ratio : 2.41%
+
+Elements failing Aspect ratio : 0
+
+Elements failing Skew : 1
+
+Element ID      Shape   Type                  Skew (deg)
+325             TRI     S3R                        56.49
+
+Elements failing Angles : 19
+
+Element ID      Shape   Type         Min angle   Max angle
+16              QUAD    S4R              44.27      120.29
+36              QUAD    S4R              45.18      136.91
+37              QUAD    S4R              44.54      129.93
+38              QUAD    S4R              44.82      117.62
+63              QUAD    S4R              44.25      135.75
+72              QUAD    S4R              52.43      151.60
+259             QUAD    S4R              44.99      134.37
+273             QUAD    S4R              35.16      134.52
+278             QUAD    S4R              46.14      138.71
+288             QUAD    S4R              53.59      136.63
+291             QUAD    S4R              48.41      166.04
+300             QUAD    S4R              67.64      136.72
+302             QUAD    S4R              56.88      164.42
+305             QUAD    S4R              58.56      144.39
+306             QUAD    S4R              35.45      147.74
+308             QUAD    S4R              33.78      150.73
+310             QUAD    S4R              44.33      127.74
+325             TRI     S3R              27.93      116.49
+331             TRI     S3R              28.96      100.18
+
+Elements failing Small element length : 10
+
+Element ID      Shape   Type        Min edge length (mm)
+331             TRI     S3R                       0.6519
+332             TRI     S3R                       0.6519
+52              QUAD    S4R                       0.6925
+260             QUAD    S4R                       0.6925
+63              QUAD    S4R                       0.6973
+286             QUAD    S4R                       0.6973
+55              QUAD    S4R                       0.7285
+261             QUAD    S4R                       0.7285
+277             QUAD    S4R                       0.8526
+282             QUAD    S4R                       0.8526
